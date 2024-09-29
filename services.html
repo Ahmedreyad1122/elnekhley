@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo (3).png" type="image/x-icon">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>El Nekhely</title>
+</head>
+<body>
+    <section class="header">
+       
+       
+        <nav>
+            <a href="index.html"><img src="images/logooo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+               
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT US</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact us.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        </section>
+   
+    <!-- <a href="index.html"><img src="images/logo (3).png"></a> -->
+    </div>
+    <section id="services">
+       
+        <div class="container">
+            
+            <h2>Our Services | خدماتنا</h2>
+            <div class="service">
+                
+                <div class="service-icon"><img src="images/ser logo.png" alt="Service Icon"></div>
+                <div class="service-details">
+                    <h3>صيانة محولات الجهد المتوسط (الزيتيه)</h3>
+                    
+                        <div class="box">
+                            <h5>كما يوجد لدينا ايضا فرع بالشركه خاصة بصيانة
+                                  المحولات الزيتيه ذات الجهد المتوسط و تشمل</h5>
+                                <ul>
+                                <li>اختبار عزل الزيت<span>1</span></li>
+                                <li>لف واصلاح ملفات الدخل والخرج<span>2</span></li>
+                                <li>تغيير جوانات المحول بالكامل<span>3</span></li>
+                                 <li>تغيير عوالزل الدخل والخرج<span>4</span></li>
+                                <li>تغيير ملح السيليكا جيل<span>5</span></li>
+                                <li>دهان المحول بالكامل<span>6</span></li>
+                              
+                                </ul>
+                        </div>
+
+                </div>
+            </div>
+            <!-- <div class="service">
+                <div class="service-icon"><img src="icon2.png" alt="Service Icon"></div>
+                <div class="service-details">
+                    <h3>Service 2</h3>
+                    <p>Description of service 2.</p>
+                </div>
+            </div> -->
+            <!-- <div class="service">
+                <div class="service-icon"><img src="icon3.png" alt="Service Icon"></div>
+                <div class="service-details">
+                    <h3>Service 3</h3>
+                    <p>Description of service 3.</p>
+                </div>
+            </div> -->
+        </div>
+      
+    </section>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+       </script>
+   </body>
+</html>
